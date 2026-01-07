@@ -1,5 +1,7 @@
 # Un-Grok
 
+![Un-Grok Extension Demo](imgs/hero.png)
+
 A Chrome extension that removes tweets mentioning @GROK from your Twitter/X feed.
 
 ## What it does
