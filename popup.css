@@ -43,6 +43,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 16px;
+}
+
+.setting-item:last-child {
+  margin-bottom: 0;
 }
 
 .setting-info {
@@ -99,11 +104,11 @@ body {
   transition: 0.3s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #4ade80;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   transform: translateX(22px);
 }
 

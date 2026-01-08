@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Un-Grok Settings</title>
-  <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un-Grok Settings</title>
+    <link rel="stylesheet" href="popup.css">
 </head>
+
 <body>
-  <div class="container">
-    <div class="header">
-      <h1>🚫 Un-Grok</h1>
-      <p>Remove @GROK mentions from your feed</p>
-    </div>
-    
-    <div class="settings">
-      <div class="setting-item">
-        <div class="setting-info">
-          <label for="analytics-toggle">Analytics Mode</label>
-          <span class="setting-description">Show removal count on page</span>
+    <div class="container">
+        <div class="header">
+            <h1>🚫 Un-Grok</h1>
+            <p>Remove @GROK mentions from your feed</p>
         </div>
-        <label class="toggle">
-          <input type="checkbox" id="analytics-toggle">
-          <span class="slider"></span>
-        </label>
-      </div>
+
+        <div class="settings">
+            <div class="setting-item">
+                <div class="setting-info">
+                    <label for="enabled-toggle">Enable Un-Grok</label>
+                    <span class="setting-description">Filter @GROK tweets from feed</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enabled-toggle" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="setting-item">
+                <div class="setting-info">
+                    <label for="analytics-toggle">Analytics Mode</label>
+                    <span class="setting-description">Show removal count on page</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="analytics-toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Extension is active on Twitter/X</p>
+        </div>
     </div>
-    
-    <div class="footer">
-      <p>Extension is active on Twitter/X</p>
-    </div>
-  </div>
-  
-  <script src="popup.js"></script>
+
+    <script src="popup.js"></script>
 </body>
+
 </html>

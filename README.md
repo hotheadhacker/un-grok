@@ -14,9 +14,10 @@ This extension automatically hides any tweet that:
 
 ## Features
 
+- **Enable/Disable Toggle**: Pause or resume GROK filtering at any time
 - **Automatic Filtering**: Removes GROK-related tweets in real-time as you scroll
 - **Analytics Mode**: Optional toggle to display a counter showing how many tweets were removed
-- **Clean Interface**: Minimal popup with a simple on/off toggle for analytics
+- **Clean Interface**: Minimal popup with simple toggles for all settings
 
 ## Installation
 
@@ -50,9 +51,11 @@ If the extension is not yet published or you want to install manually:
 ## Usage
 
 - The extension works automatically on twitter.com and x.com
-- Click the extension icon to toggle Analytics Mode
+- Click the extension icon to access settings:
+  - **Enable Un-Grok**: Toggle on/off to pause or resume filtering
+  - **Analytics Mode**: Toggle on/off to show/hide the removal counter
 - When Analytics Mode is enabled, you'll see a banner showing how many tweets were removed
-- When disabled, tweets are still removed but no counter is shown
+- When the extension is disabled, all previously hidden tweets will be restored
 
 ## Files
 
